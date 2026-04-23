@@ -1,0 +1,9 @@
+﻿{
+    "createdAt":  "2026-04-20T18:11:23.4253331+02:00",
+    "snapshotName":  "20260420-181123-baseline_drag",
+    "projectRoot":  "C:\\Users\\Simon\\Desktop\\5 Rois\\Jeux 5 Rois\\five-rois-online",
+    "items":  [
+                  "src/online/RemotePlayScreen.tsx",
+                  "host-server.js"
+              ]
+}

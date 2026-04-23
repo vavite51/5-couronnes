@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "five-rois-online",
+    "name": "5 Couronnes",
     "slug": "five-rois-online",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app_icon_android.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -16,8 +16,10 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.rgamers.cinqcouronnes",
+      "icon": "./assets/app_icon_android.png",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/app_icon_android.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
