@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: cinq-couronnes-host
+    env: node
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
+    buildCommand: npm ci
+    startCommand: npm run host:test
+    envVars:
+      - key: TURN_SECONDS
+        value: "120"
